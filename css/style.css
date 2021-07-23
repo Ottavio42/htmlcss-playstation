@@ -13,11 +13,14 @@ body {
 .btn_gray:hover {
 	color: #fff;
 }
-.btn_orange {
+.btn-orange {
 	background-color: #CD3D0F;
 	color: #fff;
 }
-
+.btn-blu {
+	background-color: #2d64e6;
+	color: #fff;
+}
 /* Header */
 header {
 	position: fixed;
@@ -86,4 +89,17 @@ main {
 /* PS5 */
 .ps5{
 	padding-top: 50px;
+}
+.box-ps5{
+    width: 100%;
+}
+.img-ps5{
+    width: 100%;
+}
+.ps5-thumb{
+    margin-top: 24px;
+	padding: 2px;
+}
+.ps5-thumb-active{
+    border-bottom: 1px solid #0072ce;
 }
