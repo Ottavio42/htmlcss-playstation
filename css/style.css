@@ -1,0 +1,89 @@
+/* Common */
+body {
+	font-family: Arial, sans-serif;
+}
+.img_rounded {
+	border-radius: 20px;
+}
+/* Button */
+.btn_gray {
+	background-color: #363636;
+	color: #fff;
+}
+.btn_gray:hover {
+	color: #fff;
+}
+.btn_orange {
+	background-color: #CD3D0F;
+	color: #fff;
+}
+
+/* Header */
+header {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 10;
+}
+.header_top {
+	background-color: #000;
+	display: flex;
+	justify-content: flex-end;
+	padding: 12px 20px;
+}
+.header_top img {
+	height: 15px;
+}
+.header_bottom {
+	background: #fff;
+}
+.header_bottom .navbar-light .navbar-nav .nav-link {
+	color: #000;
+	font-size: 17px;
+}
+.header_bottom .dropdown-toggle::after {
+	content: url('../img/chevron-down-solid.svg');
+	border: none;
+	display: inline-block;
+    width: 10px;
+    vertical-align: middle;
+}
+.header_bottom .lens {
+	height: 25px;
+}
+
+/* Main */
+main {
+	padding-top: 115px;
+}
+
+.hero {
+	color: #fff;
+}
+.hero-top {
+	background-image: url('../img/jumbo-bg.png');
+	background-size: cover;
+	background-position: top center;
+	padding: 250px 0 50px 0;
+}
+
+.hero-img {
+	height: 35px;
+}
+
+.hero-bottom {
+	padding-bottom: 24px;
+}
+.hero_thumb {
+	margin-top: 24px;
+	padding: 2px;
+	border-radius: 20px;
+}
+.hero_thumb_active {
+	box-shadow: 0px 0px 0px 2px #0072ce;
+}
+/* PS5 */
+.ps5{
+	padding-top: 50px;
+}
