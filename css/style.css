@@ -99,7 +99,26 @@ main {
 .ps5-thumb{
     margin-top: 24px;
 	padding: 2px;
+	height: 100%;
 }
-.ps5-thumb-active{
+.ps5-thumb-hover{
     border-bottom: 1px solid #0072ce;
+}
+/* NEW-GAME */
+.new-game{
+	color: #fff;
+}
+.new-game-top {
+	background-image: url('../img/it-takes-two-hero-banner-desktop.jpg');
+	background-size: cover;
+	background-position: top center;
+	padding: 50px 0 30px 0;
+	margin-top: 50px;
+}
+.new-game-img{
+	width: 100%;
+}
+.new-game-bottom{
+	background-color: #1f1f1f;
+	padding: 30px 0 50px 0;
 }
