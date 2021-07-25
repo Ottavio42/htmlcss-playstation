@@ -21,6 +21,10 @@ body {
 	background-color: #2d64e6;
 	color: #fff;
 }
+.btn-l_gray{
+	background-color: #d9dadc;
+	color: #3469e6;
+}
 /* Header */
 header {
 	position: fixed;
@@ -124,5 +128,12 @@ main {
 }
 /* PS4 */
 .ps4-bottom{
-	padding-bottom: 30px;
+	padding-bottom: 50px;
+}
+/* PS PLUS */
+.ps-plus{
+	background-color: #bebcbb;	
+}
+.img-ps-plus{
+	width: 60%;
 }
