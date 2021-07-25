@@ -100,7 +100,7 @@ main {
 .img-ps5{
     width: 100%;
 }
-.ps5-thumb{
+.ps5-thumb,.sconti-thumb{
     margin-top: 24px;
 	padding: 2px;
 	height: 100%;
@@ -136,4 +136,8 @@ main {
 }
 .img-ps-plus{
 	width: 60%;
+}
+/* SCONTI */
+.sconti{
+	padding: 50px 0 50px 0;
 }
