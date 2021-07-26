@@ -11,23 +11,60 @@ body {
 	color: #fff;
 }
 .btn_gray:hover {
+	background-color: #363636;
+	border-color: #363636;
 	color: #fff;
+	box-shadow: inset 0px 0px 0px 2px #fff;
+	opacity: 0.7;
+
 }
 .btn-orange {
 	background-color: #CD3D0F;
 	color: #fff;
 }
+.btn-orange:hover {
+	background-color: #CD3D0F;
+	border-color: #CD3D0F;
+	color: #fff;
+	box-shadow: inset 0px 0px 0px 2px #000;
+
+}
 .btn-blu {
 	background-color: #2d64e6;
 	color: #fff;
+}
+.btn-blu:hover {
+	background-color: #2d64e6;
+	border-color: #2d64e6;
+	color: #fff;
+	box-shadow: inset 0px 0px 0px 2px #fff;
+
 }
 .btn-l_gray{
 	background-color: #d9dadc;
 	color: #3469e6;
 }
+.btn-l_gray:hover {
+	background-color: #d9dadc;
+	color: #3469e6;
+
+}
 .btn-white{
 	color: #000;
 	background-color: #fff;
+}
+.btn-white:hover {
+	background-color: #fff;
+	border-color: #fff;
+	color: #000;
+	box-shadow: inset 0px 0px 0px 2px #000;
+
+}
+h1,h2,h3{
+	font-weight: 600;
+}
+.text-gray{
+	color: #727272;
 }
 /* Header */
 header {
@@ -94,6 +131,11 @@ main {
 .hero_thumb_active {
 	box-shadow: 0px 0px 0px 2px #0072ce;
 }
+.hero_thumb:hover{
+	position: relative;
+	top: -10px;
+	display: inline-block;
+}
 /* PS5 */
 .ps5,.ps4{
 	padding-top: 50px;
@@ -104,13 +146,21 @@ main {
 .img-ps5{
     width: 100%;
 }
+.ps5-thumb-hover{
+	opacity: 0.6;
+}
 .ps5-thumb,.sconti-thumb{
     margin-top: 24px;
 	padding: 2px;
 	height: 100%;
 }
-.ps5-thumb-hover{
+.ps5-thumb-hover:hover{
     border-bottom: 1px solid #0072ce;
+	opacity: 1;
+}
+.text-blu{
+	color: #0072ce;
+	font-weight: 500;
 }
 /* NEW-GAME */
 .new-game{
@@ -145,7 +195,7 @@ main {
 .sconti{
 	padding: 50px 0 50px 0;
 }
-/* PS-PLUS */
+/* PS-NOW */
 .ps-now{
 	background-color: #161c3b ; 
 	color: #fff;
@@ -172,3 +222,18 @@ footer ul{
 .footer-p{
 	font-size: 14px;
 }
+.a-white{
+	color: #fff;
+}
+.a-white li a {
+	color: #fff;
+	text-decoration: none;
+}
+/* MEDIAQUERY */
+
+@media screen and (max-width: 767.9px) {
+	.display-none{
+		display: none;
+	}
+  }
+  
