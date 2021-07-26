@@ -157,4 +157,18 @@ main {
 /* FOOTER */
 footer{
 	background-color: #00439c;
+	padding: 50px 0 50px 0;
+	color: #fff;
+}
+footer ul{
+	list-style-type: none;
+}
+.img-footer{
+	height: 45px;
+}
+.logo-footer{
+	height: 75px;
+}
+.footer-p{
+	font-size: 14px;
 }
